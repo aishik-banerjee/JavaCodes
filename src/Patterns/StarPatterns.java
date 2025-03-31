@@ -2,6 +2,16 @@ package Patterns;
 
 public class StarPatterns {
 
+
+    /*
+     *  Step 1: The outer for loop = The number of rows ( n, 2n, 2n-1 etc )
+     *  Step 2: Define relationship between rows and columns. n-i, 2n-i+1, etc..., The inner loop may run upto a formula as well.
+     *  Example : for(int i=1;i<=(2*n)-1;i++){
+                --->  int columnsValue=i<=n?i:(2*n)-i;
+                  for(int j=1;j<=columnsValue;j++){
+        Step 3: Decide what to print. Numbers or Stars. 
+     */
+
     public static void main(String[] args) {
         Pattern12(5);
     }
