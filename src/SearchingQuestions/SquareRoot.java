@@ -3,7 +3,7 @@ package SearchingQuestions;
 public class SquareRoot {
 
     public static void main(String[] args) {
-        int num=8;
+        int num=16;
         int sqrt = mySqrt(num);
         System.out.println("Square Root of "+ num + " is "+ sqrt);
 
