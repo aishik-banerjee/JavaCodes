@@ -13,7 +13,7 @@ public class StarPatterns {
      */
 
     public static void main(String[] args) {
-        Pattern12(5);
+        Pattern10(5);
     }
 
     public static void Pattern1(int n){
